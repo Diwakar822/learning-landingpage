@@ -1,0 +1,1388 @@
+*::-webkit-scrollbar{
+width: 0px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    background: rgb(0, 0, 0, 0.9);
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    font-family: sans-serif;
+   
+  }
+
+  ::placeholder{
+    position: relative;
+    left: 30px;
+  }
+  .nav #title{
+      position: relative;
+      left: 10px;
+      font-size: 18px;
+      color: white;
+  }
+
+  .nav #title::first-letter{
+    font-size:23px;
+  }
+  .nav #sub{
+      font-size: 15px;
+      position: relative;
+      right: 30px;
+      border: 1px solid white;
+      padding: 2px 8px;
+      border-radius:10px;
+      background-color:lightslategray;
+      border: none;
+  }
+
+  .nav #sub::first-letter{
+    color: white;
+    font-size: 21px;
+  }
+  
+  .nav #button{
+      border:1px solid white;
+      padding: 6px;
+      position: relative;
+      right: 50px;
+      border-radius: 5px;
+      color: white;
+      text-decoration: none;
+  }
+  .nav #button:active{
+   color: green;
+  }
+
+  .nav h4 a{
+    text-decoration: none;
+  }
+  .nav input{
+      border-radius: 10px;
+      width: 250px;
+      height: 30px;
+      border: none;
+      background: rgb(0,0, 0, 0.9);
+      position: relative;
+      right: 60px;
+  }
+  .nav i{
+    position:relative;
+    left:55px;
+    z-index: 1;
+  }
+  /*--------------------- subnav ------------*/
+  .subnav{
+      background: rgb(0, 0, 0, 0.7);
+      padding: 5px;
+      
+     
+  }
+
+  .subnav ul{
+      list-style: none;
+      display: flex;
+      justify-content: space-around;
+
+  }
+  .subnav ul li a{
+      text-decoration: none;
+      color: white;
+      font-size: 17px;
+      padding: 2px;
+      border-radius: 5px ;
+      font-family: sans-serif;
+  }
+  /*--------------- image process --------*/
+  .inline{
+      background-image: url(topbanner.png);
+      height: 350px;
+      opacity:7;
+      object-fit: cover;
+      position: relative;
+      bottom: 23px;
+
+   
+}
+
+  
+  .inline p{
+    color: white;
+    position: relative;
+    font-size: 23px;
+    left: 50px;
+    top: 40px;
+    font-family: sans-serif;
+
+  }
+  .inline button{
+    position: relative;
+    top: 70px;
+    left: 60px;
+    background-color: rgb(0, 179, 255);
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 40px;
+    width: 100px;
+    font-family: sans-serif;
+  }
+  .inline #small{
+    font-size: 15px;
+  }
+  .inline button:active{
+     color: white;
+     background-color: black;
+  }
+
+  /*----------- like --------*/
+  .like{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 50px;
+    
+  }
+  .like #Learners{
+    position: relative;
+    right: 230px;
+    font-size:20px;
+    font-family: sans-serif;
+    bottom: 30px;
+  }
+  .like i{
+    position: relative;
+    right: 230px;
+    font-size: 11px;
+    background: rgb(0, 0, 0,1.2);
+    padding: 8px;
+    color: white;
+    border-radius: 5px;
+    bottom: 40px;
+    
+  }
+  .like p{
+    font-size: 30px;
+    font-family: sans-serif;
+  }
+  .like #attech{
+    position: relative;
+    bottom: 120px;
+    font-family: sans-serif;
+  }
+  .like nav{
+    position: relative;
+    bottom: 100px;
+    font-family: sans-serif;
+  }
+
+  /*---------- ontherlike ------------*/
+  .ontherlike{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    float: right;
+    bottom: 180px;
+   
+  }
+  .ontherlike span{
+    position: relative;
+    bottom: 40px;
+    font-size: 25px;
+    font-family: sans-serif;
+  }
+  .ontherlike #Government{
+    position: relative;
+    top: 10px;
+    right: 30px;
+    font-size: 12px;
+    
+  }
+  .ontherlike #higher{
+    position: relative;
+    top: 70px;
+    right: 220px;
+    font-size: 12px;
+   
+
+  }
+  .ontherlike #school{
+    position: relative;
+    top: 10px;
+    left: 40px;
+    font-size: 12px;
+   
+  }
+
+  .back{
+    background:rgb(0, 0, 0, 0.8);
+    color: white;
+    padding-top: 20px;
+    margin-bottom: 30px;
+    position: relative;
+    bottom: 23px;
+
+  }
+  h2{
+     font-family: sans-serif;
+     font-size: 28px;
+
+  }
+  h2::first-letter{
+    font-size: 30px;
+    color: orange;
+  }
+  h5{
+     font-family: sans-serif;
+  }
+/*------- types of courses-------*/
+.types ul{
+  display: flex;
+  justify-content:space-evenly;
+ 
+}
+.types ul li {
+  list-style: none;
+}
+
+.types ul li:hover{
+  
+  
+  background-color: orange;
+  color:white;
+  padding: 5px;
+  transition: 1s;
+  
+} 
+
+
+.types ul li a{
+  text-decoration: none;
+  color: black;
+  font-family: sans-serif;
+}
+
+/*--------- photos -----------*/
+.photos{
+ display: flex;
+ justify-content: space-evenly;
+ background: rgb(0, 0, 0, 0.1);
+ padding-top: 10px;
+ padding-bottom: 10px;
+ 
+}
+/*--------- box1 --------*/
+ .box1{
+  border: 1px solid black;
+  width: 300px;
+  height: 380px;
+  border:none;
+  background-color: white;
+ }
+ .box1 img{
+  width: 300px;
+  height: 170px;
+ }
+ .box1 p{
+  position: relative;
+  left: 20px;
+  color: rgb(0, 0, 0,0.7);
+  font-family: sans-serif;
+ 
+  
+ }
+ .box1 span{
+  position: relative;
+  left: 20px;
+  background: rgb(0, 0, 0, 0.1);
+  font-family: sans-serif;
+  font-size: 16px;
+  padding: 5px;
+  color: gray;
+  border-radius: 5px;
+ }
+ .box1 h5{
+  position: relative;
+  left: 20px;
+  color: blue;
+ }
+ .box1 i{
+  font-size: 10px;
+  color: rgb(0, 0, 0, 0.6);
+  
+ }
+ .box1 #first{
+  position: relative;
+  right: 60px;
+ }
+ .box1 #sec{
+  position: relative;
+  left: 30px;
+ }
+ 
+
+ /*--------- box2 ---------*/
+ .box2{
+  border: 1px solid black;
+  width: 300px;
+  height: 380px;
+  border:none;
+  background-color: white;
+
+ }
+ .box2 p{
+  position: relative;
+  left: 20px;
+  color: rgb(0, 0, 0,0.7);
+  font-family: sans-serif;
+ }
+ .box2 span{
+  position: relative;
+  left: 20px;
+  background: rgb(0, 0, 0, 0.1);
+  font-family: sans-serif;
+  font-size: 16px;
+  padding: 5px;
+  color: gray;
+  border-radius: 5px;
+ }
+ .box2 h5{
+  position: relative;
+  left: 20px;
+  color: blue;
+ }
+ .box2 i{
+  font-size: 10px;
+  color: rgb(0, 0, 0, 0.6);
+  
+ }
+ .box2 #first{
+  position: relative;
+  right: 60px;
+ }
+ .box2 #sec{
+  position: relative;
+  left: 30px;
+ }
+  /*--------- box3 ---------*/
+ .box3{
+  border: 1px solid black;
+  width: 300px;
+  height: 380px;
+  border:none;
+  background-color: white;
+ }
+ .box3 p{
+  position: relative;
+  left: 20px;
+  color: rgb(0, 0, 0,0.7);
+  font-family: sans-serif;
+ }
+ .box3 span{
+  position: relative;
+  left: 20px;
+  background: rgb(0, 0, 0, 0.1);
+  font-family: sans-serif;
+  font-size: 16px;
+  padding: 5px;
+  color: gray;
+  border-radius: 5px;
+ }
+ .box3 h5{
+  position: relative;
+  left: 20px;
+  color: blue;
+ }
+ .box3 i{
+  font-size: 10px;
+  color: rgb(0, 0, 0, 0.6);
+ }
+ .box3 #first{
+  position: relative;
+  right: 60px;
+ }
+ .box3 #sec{
+  position: relative;
+  left: 30px;
+ }
+ 
+ h2{
+font-family: sans-serif;
+ }
+ h4{
+font-family: sans-serif;
+color: rgb(0, 0, 0, 0.6);
+ }
+
+ /*--------- offering ----------*/
+ .offering{
+ display:flex;
+ justify-content:space-evenly;
+ margin-top: 30px;
+ }
+ /* -------- box4 ---------*/
+ .box4{
+  border: 1px solid black;
+  width: 270px;
+  height: 300px;
+  border: none;
+}
+.box4 img{
+  width: 270px;
+}
+.box4 p{
+  width: 200px;
+ height: 80px;
+ overflow: auto;
+ background-color: white;
+ font-family: sans-serif;
+ padding: 10px 10px;
+ font-size: 14px;
+ color: rgb(0, 0, 0, 0.7);
+
+}
+.box4 .pra{
+background-color: white;
+position: relative;
+bottom: 50px;
+width: 220px;
+left: 20px;
+padding: 8px;
+
+}
+.box4 nav{
+font-family: sans-serif;
+font-size: 18px;
+position: relative;
+top: 10px;
+}
+
+ /*----------- box5 ---------*/
+ .box5{
+  border: 1px solid black;
+  width: 270px;
+  height: 300px;
+  border: none;
+
+ }
+ .box5 img{
+  width: 280px;
+}
+.box5 p{
+  width: 200px;
+ height: 73px;
+ overflow: auto;
+ background-color: white;
+ font-family: sans-serif;
+ padding: 10px 10px;
+ font-size: 14px;
+ color: rgb(0, 0, 0, 0.7);
+
+}
+.box5 .pra{
+background-color: white;
+position: relative;
+bottom: 50px;
+width: 220px;
+left: 20px;
+padding: 8px;
+}
+.box5 nav{
+font-family: sans-serif;
+font-size: 18px;
+position: relative;
+top: 10px;
+}
+ /*----------- box6 ------*/
+ .box6{
+  border: 1px solid black;
+  width: 270px;
+  height: 300px;
+  border: none;
+}
+.box6 img{
+  width: 270px;
+}
+.box6 p{
+  width: 200px;
+ height: 80px;
+ overflow: auto;
+ background-color: white;
+ font-family: sans-serif;
+ padding: 10px 10px;
+ font-size: 14px;
+ color: rgb(0, 0, 0, 0.7);
+
+}
+.box6 .pra{
+background-color: white;
+position: relative;
+bottom: 50px;
+width: 220px;
+left: 20px;
+padding: 8px;
+}
+.box6 nav{
+font-family: sans-serif;
+font-size: 18px;
+position: relative;
+top: 10px;
+}
+ /*----------- box7 --------*/
+ .box7{
+  border: 1px solid black;
+  width: 270px;
+  height: 300px;
+  border: none;
+}
+.box7 img{
+  width: 270px;
+}
+.box7 p{
+  width: 200px;
+ height: 80px;
+ overflow: auto;
+ background-color: white;
+ font-family: sans-serif;
+ padding: 10px 10px;
+ font-size: 14px;
+ color: rgb(0, 0, 0, 0.7);
+
+}
+.box7 .pra{
+background-color: white;
+position: relative;
+bottom: 50px;
+width: 220px;
+left: 20px;
+padding: 8px;
+}
+.box7 nav{
+font-family: sans-serif;
+font-size: 18px;
+position: relative;
+top: 10px;
+}
+
+/*------------- bigimg -----------------*/
+
+.bigimg{
+ 
+  margin-left: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 70px;
+}
+.bigimg h2{
+  position: relative;
+  bottom: 120px;
+  left: 70px;
+  font-size: 30px;
+  width: 500px;
+}
+
+.bigimg img{
+  width: 600px;
+  height: 400px;
+  object-fit: cover;
+ 
+}
+.bigimg #import{
+  position: relative;
+  right: 112px;
+  bottom: 30px;
+  width: 700px;
+  height: 100px;
+  font-family: sans-serif;
+  font-size: 18px;
+  padding: 5px 5px;
+  color: rgb(0, 0, 0, 0.6);
+}
+.bigimg details{
+  position: relative;
+  top: 160px;
+  right: 350px;
+  background-color: rgb(0, 179, 255);
+  padding: 10px;
+  width: 210px;
+  border-radius: 20px;
+  color: white;
+  font-family: sans-serif;
+}
+
+.bigimg #import2{
+  display: none;
+}
+
+.bigimg #change{
+  position:absolute;
+  right: 30px;
+  bottom: 40px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: darkcyan;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+/*--------- align ----------*/
+.align{
+  margin-top: 40px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+  background-color: black;
+  position: relative;
+  bottom: 40px;
+  padding: 20px 10px;
+}
+
+.haeding{
+  background-color: black;
+  padding-bottom: 30px;
+  padding: px;
+}
+ .haeding h1{
+  font-family: sans-serif;
+  margin-top: 20px;
+  color: white;
+  position: relative;
+  top: 20px;
+}
+.haeding h1::first-letter{
+  color: orange;
+}
+.haeding h6{
+  font-family: sans-serif;
+  font-size: 15px;
+  position: relative;
+  bottom: 16px;
+  color: white;
+  position: relative;
+  top: 10px;
+}
+
+
+
+/*------------ box8 ---------*/
+.box8{
+  border: 1px solid black;
+  width: 280px;
+  height: 340px;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+}
+.box8 img{
+  width: 280px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.box8 h4{
+  color: white;
+}
+.box8 p{
+  width: 220px;
+  position: relative;
+  left:20px;
+  font-family: sans-serif;
+}
+.box8 a{
+position: relative;
+left: 20px;
+color: white;
+font-family: sans-serif;
+}
+
+/*------------ box9 ---------*/
+.box9{
+  border: 1px solid black;
+  width: 280px;
+  height: 340px;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+}
+.box9 img{
+  width: 280px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.box9 p{
+  width: 220px;
+  position: relative;
+  left:20px;
+  font-family: sans-serif;
+
+}
+.box9 h4{
+  color: white;
+}
+.box9 a{
+  position: relative;
+  left: 20px;
+  color: white;
+  font-family: sans-serif;
+  }
+
+
+  /*-------------- showcase ----------*/
+
+ .showcase{
+  background-image: url(change2.png);
+  height: 360px;
+  object-fit: cover;
+  position: relative;
+  bottom: 70px;
+  background-repeat: no-repeat;
+ }
+ .showcase h3{
+
+color: white;
+font-family: sans-serif;
+font-size: 30px;
+position: relative;
+left: 40px;
+width: 400px;
+top: 70px;
+
+ }
+ .showcase nav{
+  color: white;
+  font-family: sans-serif;
+  font-size: 20px;
+  position: relative;
+  left: 40px;
+  top: 60px;
+  width: 300px;
+ }
+ .showcase button{
+  padding: 15px;
+  background-color: rgb(0, 179, 255);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  position: relative;
+  left: 40px;
+  top: 80px;
+ }
+
+ /*---------- dark-----------*/
+
+.dark{
+  background-color:black;
+  color: white;
+  position: relative;
+  bottom: 70px;
+  padding: 5px;
+
+}
+
+.dark ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+}
+.dark ul li a{
+  text-decoration: none;
+  position: relative;
+  right: 50px;
+  font-family: sans-serif;
+  font-size: 20px;
+  color: white;
+}
+.list1 h6{
+  display: flex;
+}
+
+/*------------ top ------------*/
+
+.top{
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+ 
+  
+}
+
+/*----------- list1 ------------*/
+.top{
+  background-color: rgb(0, 0, 0, 0.7);
+  color: white;
+  position: relative;
+ 
+  height: 290px;
+  padding: 40px 0px;
+}
+
+.list1{
+  position: relative;
+  bottom: 30px;
+  font-weight: bolder;
+}
+.list1 h6{
+  font-family: sans-serif;
+  font-size: 15px;
+}
+.list1 p{
+ font-family: sans-serif;
+ font-size: 12px;
+ color: white;
+ width: 280px;
+ position: relative;
+ bottom: 20px;
+
+}
+.list1 a{
+  font-family: sans-serif;
+  font-size: 13px;
+  position: relative;
+  bottom: 10px;
+  color: white;
+}
+
+/*----------- list2 ------------*/
+
+.list2{
+  position: relative;
+  right: 20px;
+  bottom: 47px;
+  font-weight: bolder;
+}
+
+.list2 h6{
+  font-family: sans-serif;
+  font-size: 15px;
+}
+.list2 p{
+ font-family: sans-serif;
+ font-size: 12px;
+ color: white;
+ width: 280px;
+ position: relative;
+ bottom: 20px;
+
+}
+.list2 a{
+  font-family: sans-serif;
+  font-size: 13px;
+  position: relative;
+ bottom: 10px;
+ color: white;
+}
+
+
+/*----------- list3 ------------*/
+
+.list3{
+  position: relative;
+  right: 20px;
+  bottom: 47px;
+  font-weight: bolder;
+}
+
+.list3 h6{
+  font-family: sans-serif;
+  font-size: 15px;
+}
+.list3 p{
+ font-family: sans-serif;
+ font-size: 12px;
+ color: white;
+ width: 280px;
+ position: relative;
+ bottom: 20px;
+
+}
+.list3 a{
+  font-family: sans-serif;
+  font-size: 13px;
+  position: relative;
+  bottom: 10px;
+  color: white;
+}
+
+#firbutton{
+  padding: 10px;
+  width: 100px;
+  background-color: rgb(0, 179, 255);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  position: relative;
+  top: 40px;
+  left: 50px;
+}
+#secbutton{
+  padding: 10px;
+  width: 100px;
+  background-color: rgb(0, 179, 255);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  position: relative;
+  top: 40px;
+  left: 65px;
+}
+
+/*--------- topiclast --------*/
+
+.lasttopic{
+  background-color: black;
+  color: white;
+  padding: 20px 30px;
+  padding-top: 10px;
+  position: relative;
+  bottom: 68px;
+ 
+}
+.lasttopic ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.lasttopic ul li a{
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+/*------ container -------*/
+
+.container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+/*--------- list4 ---------*/
+.list4{
+  position: relative;
+  left: 45px;
+  bottom: 10px;
+}
+
+/*--------- list5 ---------*/
+.list5{
+  position: relative;
+  left: 20px;
+  bottom: 60px;
+}
+
+
+/*--------- list6 ---------*/
+.list6{
+  position: relative;
+  left: 50px;
+  bottom: 25px;
+}
+
+
+/*--------- list7 ---------*/
+.list7{
+  position: relative;
+  left: 55px;
+ 
+}
+
+/*--------- list8 ---------*/
+.list8{
+  position: relative;
+  left: 25px;
+  bottom: 20px;
+}
+
+.humbarger{
+  position: relative;
+  right: 10px;
+  display: none;
+}
+.humbarger div{
+
+   width: 30px;
+   height: 3px;
+   background-color: white;
+   margin-top: 3px;
+   border-radius: 3px;
+}
+
+#tirbutton{
+  display: none;
+}
+
+#fourbutton{
+  display: none;
+}
+
+/*----------- created -------*/
+#creater{
+  font-family: sans-serif;
+  font-weight: bold;
+  
+}
+.inline #loginbutton{
+  display: none;
+}
+/*--------------------------------medis Qurey---------------*/
+@media (max-width: 460px){
+
+  .nav input{
+   display: none;
+  }
+  .nav i{
+    position: relative;
+    right: 50px;
+    display: none;
+  }
+
+.inline #loginbutton{
+    position: relative;
+    top: 70px;
+    left: 60px;
+    background-color: rgb(0, 179, 255);
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 40px;
+    width: 100px;
+    font-family: sans-serif;
+    display: block;
+  }
+
+  .inline a{
+    text-decoration: none;
+  }
+.inline button{
+  display: none;
+}
+ #sub{
+  display: none;
+ }
+
+
+.subnav{
+  display:none;
+  transition: 0;
+  
+}
+.subnav ul {
+  display:inline-block;
+  line-height: 35px;
+  justify-content:space-around;
+  position: relative;
+  left: 120px;
+}
+#active{
+  display: none;
+}
+.humbarger{
+  display: block;
+  cursor: pointer;
+}
+
+.nav #button{
+  display: none;
+}
+
+.nav input{
+  width: 200px;
+  padding: 2px;
+  border-color: white ;
+}
+
+.nav i{
+  position: relative;
+  left:40px;
+}
+.showalist{
+
+  display: block;
+  transition: 2s;
+}
+
+.like p{
+  position: relative;
+  right: 10px;
+
+}
+.ontherlike{
+  display: none;
+}
+
+#Learners{
+  position: relative;
+  left: 90px;
+  top: 80px;
+}
+
+.like i{
+  position: relative;
+  left: 90px;
+  top: 80px;
+  
+}
+
+.photos{
+  display: inline;
+  position: relative;
+  
+}
+
+.box1{
+  padding: 10px 81px;
+  background:rgb(0, 0, 0, 0.1);
+  width: 273px;
+  
+}
+
+.box2{
+  padding: 0px 81px;
+  background:rgb(0, 0, 0, 0.1);
+  width: 273px;
+}
+
+.box3{
+  padding: 0px 81px;
+  background:rgb(0, 0, 0, 0.1);
+  width: 273px;
+}
+
+.types{
+  position: relative;
+  right: 10px;
+ }
+
+ .offering{
+  display: inline-block;
+  height: 120px;
+}
+
+.box4{
+  background-color: rgba(255, 166, 0, 0.3);
+  padding: 83px; 
+  
+}
+ .box5{
+ width: 285px;
+ background-color: rgba(255, 166, 0, 0.3);
+ }
+ .box5 img{
+    height: 180px;
+ }
+ .box6{
+ 
+  padding: 83px;
+  background-color: rgba(255, 166, 0, 0.3);
+  }
+  .box7{
+    padding: 83px;
+    background-color: rgba(255, 166, 0, 0.3);
+    }
+
+  .align{
+    padding: 9px;
+  }
+ .offering::-webkit-scrollbar{
+  width: 0px;
+ }
+
+ .bigimg #import{
+ display: none;
+ }
+
+.bigimg h2{
+display: none;
+}
+.bigimg img{
+  display: inline-block;
+  width: 420px;
+  margin-right: 70px;
+}
+
+.bigimg #import2{
+  position: absolute;
+  right: 25px;
+  display: none;
+}
+
+.bigimg{
+ display: none;
+}
+
+
+.bigimg #change{
+  position:absolute;
+  right: 30px;
+  bottom: 40px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: darkcyan;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.align{
+  display:inline-block;
+  position: relative;
+  left: px;
+  background-color: black;
+}
+.box8{
+ padding: 68px;
+}
+
+.box9{
+  padding: 68px;
+}
+.showcase{
+  width: 435px;
+}
+
+.showcase h3,
+.showcase p ,
+.showcase button
+{
+position: relative;
+left:10px;
+}
+
+
+.dark ul li{
+  display: inline;
+  position: relative;
+  left: 20px;
+  display: none;
+}
+.top{
+  display: inline-block;
+  position: relative;
+  left: 20px;
+}
+
+.list1{
+  position: relative;
+  left: 20px;
+}
+
+.list1 h6::before{
+  position: relative;
+  content: "School Eduction";
+  color: orange;
+
+}
+
+.list1 button{
+  position: relative;
+  display: none;
+  
+}
+
+.list2{
+  position: relative;
+  left: 20px;
+}
+.list2 h6::before{
+  position: relative;
+  content: "Higher Eduction";
+  color: orange;
+
+}
+
+.list3{
+  position: relative;
+  left: 20px;
+}
+.list3 h6::before{
+  position: relative;
+  content: "Vactional Eduction";
+  color: orange;
+
+}
+.list3 #tirbutton{
+  padding: 13px;
+  background-color: rgb(24, 190, 255);
+  border: none;
+  color: white;
+  border-radius: 40px;
+  position: relative;
+  left: 30px;
+  top: 40px;
+  display: block;
+}
+
+.list3 #fourbutton{
+  display: block;
+  padding: 13px;
+  background-color: rgb(24, 190, 255);
+  border: none;
+  color: white;
+  border-radius: 40px;
+  position: relative;
+  left: 150px;
+
+}
+.lasttopic{
+  display: none;
+
+}
+
+.box4::before ,
+.box5::before ,
+.box6::before ,
+.box7::before
+
+{
+  content: "Entroll For Free";
+  font-size: 20px;
+  font-family: sans-serif;
+  position: relative;
+  bottom: 30px;
+  left: 60px;
+  font-weight: bold;
+  
+}
+
+.box5{
+  padding: 75px;
+}
+
+.align{
+  padding: 10px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
